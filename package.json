@@ -1,0 +1,31 @@
+{
+  "name": "react-on-rails",
+  "version": "0.0.1",
+  "description": "React-on-Rails",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Bartekus/react-on-rails.git"
+  },
+  "keywords": [
+    "react",
+    "rails",
+    "flux"
+  ],
+  "author": "Bartek Kus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bartekus/react-on-rails/issues"
+  },
+  "homepage": "https://github.com/Bartekus/react-on-rails#readme",
+  "dependencies": {
+    "babel-loader": "^5.3.2",
+    "webpack": "^1.12.2"
+  }
+}
