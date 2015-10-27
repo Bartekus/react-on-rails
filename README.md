@@ -36,6 +36,7 @@ Checkout this repo, install dependencies, then start the server with the followi
 
 ## History
 
+* 0.0.3 Implemented tweet model/controller/view + extended its function with moment.js & gravatar libraries
 * 0.0.2 Implemented basic structure with user model/controller/view + devise authentication, dependencies and functionality
 * 0.0.1 First Commit
 
