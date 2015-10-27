@@ -1,24 +1,51 @@
-## README
+React-On-Rails
+==============
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Synopsis
+React.js Flux implementation utilizing rails backend with PostgreSQL.
 
-Things you may want to cover:
 
-* Ruby version
+## Motivation
+Integrating React.js along with full frontend workflow (webpack&co) into Ruby-on-Rails framework.
 
-* System dependencies
 
-* Configuration
+## Screenshot
+![Screenshot software](https://raw.githubusercontent.com/Bartekus/react-on-rails/master/react-on-rails.png "screenshot software")
 
-* Database creation
 
-* Database initialization
+## Installation
+Checkout this repo, install dependencies, then start the server with the following:
 
-* How to run the test suite
+```
+  > git clone git@github.com:Bartekus/react-on-rails.git
+  > cd react-on-rails
+  > bundle
+  > npm install
+  > rails s
+  > webpack -w -d
+```
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Contributing
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
 
-* ...
+
+## History
+
+* 0.0.2 Implemented basic structure with user model/controller/view + devise authentication, dependencies and functionality
+* 0.0.1 First Commit
+
+## Contact
+#### Bartek Kus
+* Homepage: http://bartekus.com
+* E-mail: bartekus@gmail.com
+* Twitter: [@Bartekus](https://twitter.com/Bartekus "Bartekus on twitter")
+
+
+## License
+Copyright (c) 2015 Bartek Kus
+Licensed under the MIT license

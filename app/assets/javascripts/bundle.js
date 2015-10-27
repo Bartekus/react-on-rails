@@ -59,11 +59,11 @@
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	var _componentsTweetBox = __webpack_require__(/*! ./components/TweetBox */ 2);
+	var _componentsTweetBox = __webpack_require__(/*! ./components/TweetBox */ 1);
 	
 	var _componentsTweetBox2 = _interopRequireDefault(_componentsTweetBox);
 	
-	var _componentsTweetsList = __webpack_require__(/*! ./components/TweetsList */ 3);
+	var _componentsTweetsList = __webpack_require__(/*! ./components/TweetsList */ 2);
 	
 	var _componentsTweetsList2 = _interopRequireDefault(_componentsTweetsList);
 	
@@ -101,14 +101,16 @@
 	})(React.Component);
 	
 	var documentReady = function documentReady() {
-	  React.render(React.createElement(Main, null), document.getElementById('react'));
+	  var reactNode = document.getElementById('react');
+	  if (reactNode) {
+	    React.render(React.createElement(Main, null), reactNode);
+	  }
 	};
 	
 	$(documentReady);
 
 /***/ },
-/* 1 */,
-/* 2 */
+/* 1 */
 /*!*****************************************************!*\
   !*** ./app/assets/frontend/components/TweetBox.jsx ***!
   \*****************************************************/
@@ -180,7 +182,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 3 */
+/* 2 */
 /*!*******************************************************!*\
   !*** ./app/assets/frontend/components/TweetsList.jsx ***!
   \*******************************************************/
@@ -204,7 +206,7 @@
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	var _Tweet = __webpack_require__(/*! ./Tweet */ 4);
+	var _Tweet = __webpack_require__(/*! ./Tweet */ 3);
 	
 	var _Tweet2 = _interopRequireDefault(_Tweet);
 	
@@ -242,7 +244,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 4 */
+/* 3 */
 /*!**************************************************!*\
   !*** ./app/assets/frontend/components/Tweet.jsx ***!
   \**************************************************/

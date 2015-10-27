@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'sass-rails'
 gem 'rails', github: 'rails/rails'
 gem "arel", github: 'rails/arel'
 gem 'rack', github: 'rack/rack'
@@ -28,6 +29,7 @@ gem 'jbuilder', github: 'rails/jbuilder'
 # gem 'capistrano-rails', group: :development
 
 gem 'react-rails'
+gem 'devise', github: 'twalpole/devise', branch: 'rails5'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -35,6 +37,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'guard-livereload', '~> 2.4', require: false
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', github: 'rails/web-console'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
