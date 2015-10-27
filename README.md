@@ -36,6 +36,7 @@ Checkout this repo, install dependencies, then start the server with the followi
 
 ## History
 
+* 0.1.1 Added Follower & refactored most of the code /Cleanup actions and stores
 * 0.1.0 Converted the whole frontend implementation to flux pattern, including stores & actions
 * 0.0.4 Added Flux & Dispatcher /Configured Action Stores for Server & Tweet /Added API + constants & dispatcher
 * 0.0.3 Implemented tweet model/controller/view + extended its function with moment.js & gravatar libraries
