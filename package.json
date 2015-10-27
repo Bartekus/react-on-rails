@@ -26,6 +26,8 @@
   "homepage": "https://github.com/Bartekus/react-on-rails#readme",
   "dependencies": {
     "babel-loader": "^5.3.2",
+    "events": "^1.1.0",
+    "flux": "^2.1.1",
     "webpack": "^1.12.2"
   }
 }
